@@ -46,13 +46,11 @@ rm -Rf pt-feeder/config
 chmod +x pt/ProfitTrailer.jar
 chmod +x pt-feeder/pt-feeder.dll
 wget https://github.com/mashuble/bitcoin-trading-bot/releases/download/1.0.0/PT-Files.zip
-rm PT-Files.zip 
 unzip PT-Files.zip
+rm PT-Files.zip 
 mv PT\ Files/Profit\ Trailer\ Files/ pt/trading/
 mv PT\ Files/Feeder\ Files/ pt-feeder/config/
 rm -Rf PT\ Files/
-wget http://jasonappleton.com/wp-content/uploads/2018/01/Feeder-Crow.zip
-unzip Feeder-Crow.zip
 vim pt/application.properties
 vim pt/configuration.properties 
 #vim appsettings.json
