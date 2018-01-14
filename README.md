@@ -1,4 +1,4 @@
-# bitcoin-trading-bot
+# Bitcoin Trading Bot
 How to setup a bitcoin trading bot
 
 ### Buy the bot (~700€)
