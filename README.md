@@ -45,7 +45,7 @@ rm -Rf pt/trading
 rm -Rf pt-feeder/config
 chmod +x pt/ProfitTrailer.jar
 chmod +x pt-feeder/pt-feeder.dll
-wget http://jasonappleton.com/wp-content/uploads/2018/01/PT-Files.zip
+wget https://github.com/mashuble/bitcoin-trading-bot/releases/download/1.0.0/PT-Files.zip
 rm PT-Files.zip 
 unzip PT-Files.zip
 mv PT\ Files/Profit\ Trailer\ Files/ pt/trading/
