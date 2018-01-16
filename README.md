@@ -85,7 +85,27 @@ Once you're signed in
  
 #### Bot Configuration
 
-###### Application File (Profit Trailer)
+##### Telegram Configuration
+
+This is necessary to get feedback from your bot.
+1. Install Telegram on your phone or computer
+
+2. Talk to @BotFather (NOT to be confused with TheBotFather channel!!!) - Once there type ```/newbot``` to create a bot. Answer the questions by typing answers and pressing enter. 
+You will receive a message containing your bot token.
+
+3. Start a chat with your bot's name (for example @MyTPBot) and press start button
+
+4. Send a dummy message to the bot. 
+You can use this example: /my_id @your_bot_name
+(I tried a few messages, not all the messages work. The example above works fine. Maybe the message should start with /)
+
+5. Go to following url: https://api.telegram.org/botXXX:YYYY/getUpdates
+replace XXX:YYYY with your bot token
+
+6. Look for "chat":{"id":-zzzzzzzzzz,
+-zzzzzzzzzz is your Telegram Chat ID (with the negative sign).
+
+##### Application File (Profit Trailer)
 
 ```
 vim pt/application.properties
@@ -118,7 +138,7 @@ trading_apiKey = YOUR_BINANCE_api_pt_trading_key_API_KEY
 trading_apiSecret = YOUR_BINANCE_api_pt_trading_key_API_SECRET
 ```
 
-###### Configuration File (Profit Trailer)
+##### Configuration File (Profit Trailer)
 ```
 vim pt/configuration.properties
 ```
