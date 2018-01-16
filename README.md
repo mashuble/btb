@@ -3,11 +3,17 @@ How to setup a bitcoin trading bot
 
 ### Open a [Coinbase](https://www.coinbase.com/join/5a3108cabe6cae01470f94ec) Account (Get $10 by signup with this link)
 
-Verify your account and put some money ($2000 recommended)
+- Verify your account
+- Put some money ($3000 recommended)
+- Buy LiteCoin
 
 ### Open a [Binance](https://www.binance.com/?ref=16153326) Account
 
-Verify your account and enable Google Auth
+- Verify your account
+- Enable Google Auth
+- Send your LiteCoin in your Binance account
+- Once you received them
+- Sell them for BTC
 
 ### Create the API Keys
 
@@ -137,8 +143,6 @@ ETH_dust = 0.0105
 BNB_dust = 0.0105
 USDT_dust = 1.05
 ```
- 
-#vim appsettings.json
 
 ###### Host Settings File (PT Feeder)
 
@@ -189,10 +193,12 @@ if you want to restart / reload an instance ```pm2 reload ID_INSTANCE```
 if you want to stop an instance ```pm2 stop ID_INSTANCE```
 
 ### Go to DROPLET_IP_ADDRESS:8081
+-----
 
 Write your password
 
 ### Watch the logs
+-----
 
 Make sure to watch the logs to see if any problem occur
 
@@ -200,7 +206,7 @@ Make sure to watch the logs to see if any problem occur
 tail -f /root/pt/logs/ProfitTrailer.log
 ```
 
-### Let the money in
+### Let the money in $$$
 
 ------
 
