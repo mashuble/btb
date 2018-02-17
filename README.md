@@ -1,4 +1,4 @@
-# Bitcoin Trading Bot
+# BTB
 How to setup a bitcoin trading bot
 
 ### Open a [Coinbase](https://www.coinbase.com/join/5a3108cabe6cae01470f94ec) Account (Get $10 by signup with this link)
